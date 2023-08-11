@@ -11,3 +11,4 @@ DATABASE- MySQL: create a webassignment_shoes in which, create 3 tables for 3 ca
                  these tables have these attributes: ![image](https://github.com/dungnguyen73/WEB-Assignment/assets/91122031/09cba6ca-313c-410e-b99d-0159ce288965)
 
             
+note: mvc/view/accessory/edit_accessory    (-fix typo)
