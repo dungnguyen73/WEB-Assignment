@@ -13,5 +13,6 @@ DATABASE- MySQL: create a webassignment_shoes in which, create 3 tables for 3 ca
             
 note: mvc/view/accessory/edit_accessory    (-fix typo)
 
-
-the public contains all the files left outside 
+12/8/2023
+the public folder contains all the files left outside 
+open public/main.php through a server to see as a public user
