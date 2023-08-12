@@ -12,3 +12,6 @@ DATABASE- MySQL: create a webassignment_shoes in which, create 3 tables for 3 ca
 
             
 note: mvc/view/accessory/edit_accessory    (-fix typo)
+
+
+the public contains all the files left outside 
