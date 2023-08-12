@@ -121,31 +121,39 @@
             }
         }
         
+
+        // for search in navbar - search in all tables in the database
+        public function getAllTableNames() {
+            $sql = "SHOW TABLES";
+            $this->execute($sql);
+            
+            $tableNames = array();
+            while ($row = $this->getData()) {
+                $tableNames[] = $row[0];
+                // echo $row[0].' ';
+            }
+            
+            return $tableNames;
+        }
+
+        public function searchAcrossAllTables($keyword) {
+            $tableNames = $this->getAllTableNames();
+            $results = array();
+    
+            foreach ($tableNames as $tableName) {
+                $tableResults = $this->SearchData($tableName, $keyword);
+                if (!empty($tableResults)) {
+                    $results[$tableName] = $tableResults;
+                }
+            }
+    
+            return $results;
+        }
+
     }
-    // $db = new Database();
-    // $conne = $db->connect();
-    // if ($conne) {
-    //     echo "Connected to the database successfully.<br>";
     
-    //     // Set the values for update
-    //     $id = 2; // Specify the ID of the record you want to update
-    //     $name = "Updated Shoe";
-    //     $img = "updated.jpg";
-    //     $note = "This is an updated shoe";
-    //     $subcategory = "Formal";
-    //     $price = 69.99;
     
-    //     // Update data in the "shoes" table using the updateData function
-    //     $updateResult = $db->updateData($id, $name, $img, $note, $subcategory, $price);
-    
-    //     if ($updateResult) {
-    //         echo "Data updated successfully.<br>";
-    //     } else {
-    //         echo "Data update failed.<br>";
-    //     }
-    // } else {
-    //     echo "Failed to connect to the database.<br>";
-    // }
+        
     
 ?>
     

@@ -48,9 +48,9 @@
                 <td><?php echo $value['product_note']; ?></td>
                 <td><?php echo $value['product_subcategory']; ?></td>
                 <td><?php echo $value['product_price']; ?></td>
-                <td>
-                    <a href="index.php?controller=shoes&action=edit&id=<?php echo $value['id']; ?>">Edit</a>
-                    <a onclick="return confirm('Confirm deleting?')" href="index.php?controller=shoes&action=delete&id=<?php echo $value['id']; ?>" title="Delete">Delete</a>
+                <td class = "d-flex">
+                    <a type='button' class = 'btn btn-primary mx-2' href="index.php?controller=accessory&action=edit&id=<?php echo $value['id']; ?>">Edit</a>
+                    <a type='button'class="btn btn-danger mx-2" onclick="return confirm('Confirm deleting?')" href="index.php?controller=accessory&action=delete&id=<?php echo $value['id']; ?>" title="Delete">Delete</a>
                 </td>
             </tr>
             <?php

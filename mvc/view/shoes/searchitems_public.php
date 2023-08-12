@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-lg-3 col-md-12" id="category">
             <div class="d-flex flex-lg-column">
-                <a href="index_public.php?controller=shoes&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Lifestyle</a>
+                <a href="index_public.php?controller=shoes&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3" >Lifestyle</a>
                 <a href="index_public.php?controller=shoes&action=public_search&search_query=training" class = "text-dark no-underline mr-3 mb-lg-3">Training & Gym</a>
                 <a href="index_public.php?controller=shoes&action=public_search&search_query=football" class = "text-dark no-underline mr-3 mb-lg-3">Football</a>
             </div>

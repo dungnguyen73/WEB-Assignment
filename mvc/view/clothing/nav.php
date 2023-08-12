@@ -11,10 +11,7 @@
       body{
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       }
-      .navbar{
-            padding-left:  0;
-            padding-right: 0;
-        }
+   
 
         .navbar-brand img{
             width: 58.85px;
@@ -237,20 +234,20 @@
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
-        <a href="http://localhost:3000/Assignment/Homepage/main.php" class="navbar-brand"><img src="assets/Logo_NIKE.svg.png" alt="logo"></a>
+        <a href="http://localhost:3000/Assignment/Homepage/public/main.php" class="navbar-brand"><img src="http://localhost:3000/Assignment/Homepage/assets/Logo_NIKE.svg.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebtn" aria-controls="collapsebtn" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="collapsebtn"> <!-- Removed unnecessary classes -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="http://localhost:3000/Assignment/Homepage/shoes.php" class="nav-link">Shoes</a>
+                    <a href="http://localhost:3000/Assignment/Homepage/public/shoes.php" class="nav-link">Shoes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://localhost:3000/Assignment/Homepage/clothing.php" class="nav-link">Clothing</a>
+                    <a href="http://localhost:3000/Assignment/Homepage/public/clothing.php" class="nav-link">Clothing</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://localhost:3000/Assignment/Homepage/accessory.php" class="nav-link">Accessories</a>
+                    <a href="http://localhost:3000/Assignment/Homepage/public/accessory.php" class="nav-link">Accessories</a>
                 </li>
             </ul>
             <div class="d-md-none options"> <!-- Corrected class name -->
@@ -261,8 +258,8 @@
         </div>
 
         <div class="d-none d-md-block" id="searchbar">
-            <form class="form-inline">
-                <input class="form-control mr-md-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="form-inline" action="http://localhost:3000/Assignment/Homepage/public/searchresult.php">
+                <input class="form-control mr-md-2" type="search" placeholder="Search" aria-label="Search" name='search_term'>
             </form>
         </div>
 

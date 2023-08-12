@@ -28,7 +28,7 @@
                 <a href="index_public.php?controller=accessory&action=public_search&search_query=bag" class = "text-dark no-underline mr-3 mb-lg-3">Bags</a>
                 <a href="index_public.php?controller=accessory&action=public_search&search_query=ball" class = "text-dark no-underline mr-3 mb-lg-3">Balls</a>
                 <a href="index_public.php?controller=accessory&action=public_search&search_query=hat" class = "text-dark no-underline mr-3 mb-lg-3">Hat</a>
-                <a href="index_public.php?controller=accessory&action=public_search&search_query=hat" class = "text-dark no-underline mr-3 mb-lg-3">Sunglasses</a>
+                <a href="index_public.php?controller=accessory&action=public_search&search_query=sunglasses" class = "text-dark no-underline mr-3 mb-lg-3">Sunglasses</a>
                 
             </div>
             <hr class ="d-lg-none">
