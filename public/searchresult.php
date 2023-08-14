@@ -63,4 +63,8 @@ if (isset($_GET['search_term'])) {
     // No search term submitted
     echo "No search term submitted.";
 }
+
+include 'footer.php';
 ?>
+
+
