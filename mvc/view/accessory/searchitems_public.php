@@ -12,7 +12,23 @@
     </style>
 </head>
 <body>
-    <?php require 'nav.php';?>
+    <?php require 'nav.php';
+    // set-up for pagination
+    $productsPerPage = 9; // Số sản phẩm trên mỗi trang
+    $totalProduct = count($search_result);
+    $totalPages = ceil($totalProduct / $productsPerPage); // Tổng số trang
+
+    
+    $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+    if ($currentPage < 1) {
+        $currentPage = 1;
+    } elseif ($currentPage > $totalPages) {
+        $currentPage = $totalPages;
+    }
+
+    $startIndex = ($currentPage - 1) * $productsPerPage;
+    $endIndex = min($startIndex + $productsPerPage, $totalProduct);
+    ?>
     
 
 <div class="container-fluid">
@@ -39,7 +55,8 @@
                 <div class="row">
                     
                     <?php  
-                    foreach($search_result as $value){
+                    for ($i = $startIndex; $i < $endIndex; $i++){
+                        $value = $search_result[$i];
                         ?>
                     <!-- card product  -->
                     <div class="col-6 col-lg-4 px-1"> <!-- show 2 product on 1 line for any screens, but 3 for large screen  -->
@@ -64,6 +81,21 @@
             </div>
         </div>
     </div>
+
+    <!-- Component phân trang -->
+    <div class="pagination justify-content-end mt-4 mx-4">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <?php
+                for ($page = 1; $page <= $totalPages; $page++) {
+                    $isActive = $page === $currentPage ? 'active' : '';
+                    echo '<li class="page-item ' . $isActive . '"><a class="page-link" href="?controller=accessory&action=public_search&search_query=' . $searchQuery . '&page=' . $page . '">' . $page . '</a></li>';
+                }
+                ?>
+            </ul>
+        </nav>
+    </div>
+
 </div>
 
 <!--  -->
