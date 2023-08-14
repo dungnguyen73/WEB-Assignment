@@ -19,3 +19,8 @@ note: mvc/view/accessory/edit_accessory    (-fix typo)
 the public folder contains all the files left outside 
 
 open public/main.php through a server to see as a public user
+
+14/8/2023
+
+add pagination to the search_public files in mvc/view
+also, make the search bar in the navbar work
