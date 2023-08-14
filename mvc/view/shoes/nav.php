@@ -250,10 +250,10 @@
                     <a href="http://localhost:3000/Assignment/Homepage/public/accessory.php" class="nav-link">Accessories</a>
                 </li>
             </ul>
-            <div class="d-md-none options"> <!-- Corrected class name -->
-                <i class="fas fa-heart fa-lg" title="Favorites"></i> <!-- Corrected class name and icon prefix -->
-                <i class="fas fa-shopping-bag fa-lg" title="Bag items"></i> <!-- Corrected class name and icon prefix -->
-                <i class="fas fa-user fa-lg" title="User"></i> <!-- Corrected class name and icon prefix -->
+            <div class="d-md-none options"> 
+                <i class="fa-sharp fa-regular fa-heart fa-lg" title="Favorites"></i>
+                <i class="fa-sharp fa-solid fa-bag-shopping fa-lg" title= "Bag items"></i>
+                <i class="fa-sharp fa-regular fa-user fa-lg" title = "User"></i>
             </div>
         </div>
 
@@ -264,13 +264,12 @@
         </div>
 
         <div class="d-none d-md-block options">
-            <i class="far fa-heart fa-lg" title="Favorites"></i> <!-- Corrected class name and icon prefix -->
-            <i class="fas fa-shopping-bag fa-lg" title="Bag items"></i>
-            <i class="far fa-user fa-lg" title="User"></i>
+                <i class="fa-sharp fa-regular fa-heart fa-lg" title="Favorites"></i>
+                <i class="fa-sharp fa-solid fa-bag-shopping fa-lg" title= "Bag items"></i>
+                <i class="fa-sharp fa-regular fa-user fa-lg" title = "User"></i>
         </div>
     </div>
 </nav>
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     
