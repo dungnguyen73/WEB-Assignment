@@ -38,7 +38,7 @@
 
       <div class="container-fluid" id="product-container">
 
-        <section id="pinksection">
+      <section id="pinksection">
           <div class="carousel-header">
             <span style='font-size: 25px;'>Pretty in Pink 🎀</span>
           </div>
@@ -50,7 +50,7 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-img-top product-infor">
                                       <a href="#">
                                         <img src="assets/pinksection/pic1.png" class="img-fluid">
@@ -77,7 +77,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-img-bottom product-infor">
                                         <img src="assets/pinksection/pic2.png" class="img-fluid">
                                     </div>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-img-bottom product-infor">
                                       <a href="#">
                                         <img src="assets/pinksection/pic3.png" class="img-fluid">
@@ -130,7 +130,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-img-bottom product-infor">
                                       <a href="#">
 
@@ -157,7 +157,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-img-bottom product-infor">
                                       <a href="#">
 
@@ -184,7 +184,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-img-bottom product-infor">
                                       <a href="#">
 

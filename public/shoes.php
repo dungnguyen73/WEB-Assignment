@@ -79,57 +79,7 @@
 
                 <div class="row">
 
-                    <div class="col-6 col-lg-4 px-1"> <!-- show 2 product on 1 line for medium screen, 3 for large screen  -->
-                        <div class="card border-0">
-                            <img src="assets/jordanlow/jordanlow(1).png" alt="">
-                            <div class="card-body mx-0 my-2 py-0">
-                                <p class="card-text note my-0">Iconic</p>
-                                <a href="#" class = "text-dark no-underline"><h5 class="card-title product-name"> Air Jordan Low</h5></a>
-                                <p class="card-text text-secondary shoes-type">Men's shoes</p>
-                                <p class="card-text price mt-2">123$</p>
-                            </div>
-                        </div>  
-                    </div>
-
-                    <div class="col-6 col-lg-4 px-1"> <!-- show 2 product on 1 line for any screens, but 3 for large screen  -->
-                        <div class="card border-0">
-                            <img src="assets/airforce.png" alt="">
-                            <div class="card-body mx-0 my-2 py-0 product-infor">
-                                <p class="card-text note my-0">Best Seller</p>
-                                <a href="#" class = "text-dark no-underline"><h5 class="card-title product-name">Nike Air Force 1 '07</h5></a>
-                                <p class="card-text text-secondary shoes-type">Shoes</p>
-                                <p class="card-text price mt-2">2,929,000VND</p>
-                            </div>
-                        </div>  
-                    </div>
-
-                    <!-- card product  -->
-                    <div class="col-6 col-lg-4 px-1"> <!-- show 2 product on 1 line for any screens, but 3 for large screen  -->
-                        <div class="card border-0">
-                            <img src="assets/jordanstadium90.png" alt="">
-                            <div class="card-body mx-0 my-2 py-0">
-                                <p class="card-text note my-0"></p>
-                                <a href="#" class = "text-dark no-underline"><h5 class="card-title product-name">Jordan Stadium 90</h5></a>
-                                <p class="card-text text-secondary shoes-type">Men's shoes</p>
-                                <p class="card-text price mt-2">4,109,000VND</p>
-                            </div>
-                        </div>  
-                    </div>
-                    <!-- card product -->
-
-                    <!-- card product  -->
-                    <div class="col-6 col-lg-4 px-1"> <!-- show 2 product on 1 line for any screens, but 3 for large screen  -->
-                        <div class="card border-0">
-                            <img src="assets/Oneonta.png" alt="">
-                            <div class="card-body mx-0 my-2 py-0">
-                                <p class="card-text note my-0">Sustainable Materials</p>
-                                <a href="#" class = "text-dark no-underline"><h5 class="card-title product-name product-name">Nike Oneonta Next Nature</h5></a>
-                                <p class="card-text text-secondary shoes-type">Sandals</p>
-                                <p class="card-text price mt-2">2,069,000VND</p>
-                            </div>
-                        </div>  
-                    </div>
-                    <!-- card product -->
+                    
                     
                     <?php  
                     foreach($data as $value){

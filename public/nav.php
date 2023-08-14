@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,6 @@
       
     </style>
 </head>
-
 <!-- navigator bar section -->
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -35,11 +33,22 @@
                     <a href="accessory.php" class="nav-link">Accessories</a>
                 </li>
             </ul>
+
+            <div class="d-md-none">
+                <form class="form-inline mt-3" method="get" action="searchresult.php">
+                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search" name="search_term">
+                    <!-- <button class="btn btn-primary" type="submit">Search</button> -->
+                </form>
+            </div>
+            
             <div class="d-md-none options"> <!-- Corrected class name -->
                 <i class="fas fa-heart fa-lg" title="Favorites"></i> <!-- Corrected class name and icon prefix -->
                 <i class="fas fa-shopping-bag fa-lg" title="Bag items"></i> <!-- Corrected class name and icon prefix -->
                 <i class="fas fa-user fa-lg" title="User"></i> <!-- Corrected class name and icon prefix -->
             </div>
+            
+            
+
         </div>
 
         <div class="d-none d-md-block" id="searchbar">
@@ -56,6 +65,4 @@
     </div>
 </nav>
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-    
+   
