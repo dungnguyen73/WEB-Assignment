@@ -24,3 +24,11 @@ open public/main.php through a server to see as a public user
 
 add pagination to the search_public files in mvc/view
 also, make the search bar in the navbar work
+
+
+![image](https://github.com/dungnguyen73/WEB-Assignment/assets/91122031/0b69a21c-9507-4f65-863a-5d4bb77ce230)
+
+![image](https://github.com/dungnguyen73/WEB-Assignment/assets/91122031/f62bdc15-adcb-4af7-9d16-8b76d217ddbb)
+
+
+
