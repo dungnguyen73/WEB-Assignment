@@ -3,7 +3,7 @@
         private $host = "localhost";
         private $user ="root";
         private $pass="";
-        private $dbname = "webassignment_shoes";
+        private $dbname = "webdb223";
         private $conn = NULL;
         private $result = NULL;
         
